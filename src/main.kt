@@ -17,17 +17,13 @@ val player = Individual()
     while (true){
         Thread.sleep(10)
         queue.read()
-        board.print()
-        println(queue)
         if (queue.current == "") error("queue is empty!")
         var move = tetrisAI.findMove(board,queue,2)
-        println(move)
         if (move.hold) tetrisAI.hold(queue)
         val mino = Tetromino(queue.current,move.offset,move.rotations,20,board)
         mino.boardPlace()
         board.clearLines()
         robot.place(move,mino)
-        println("offset ${mino.getOset()} target ${move.offset}dd")
     }
 }*/
 
