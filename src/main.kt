@@ -1,4 +1,4 @@
-import java.awt.Robot
+//import java.awt.Robot
 import kotlin.math.*
 import kotlin.random.Random
 
@@ -6,7 +6,7 @@ import kotlin.random.Random
 
 val board = Board()
 val queue = Queue()
-var robot = Robot()
+//var robot = Robot()
 val tetrisAI = TetrisAI()
 val player = Individual()
 

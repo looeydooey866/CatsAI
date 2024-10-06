@@ -1,8 +1,8 @@
-import java.awt.Robot
-import java.awt.event.KeyEvent
-import java.awt.event.MouseEvent
+//import java.awt.Robot
+//import java.awt.event.KeyEvent
+//import java.awt.event.MouseEvent
 import kotlin.random.Random
-
+/*
 fun Robot.place(move: Move,piece:Tetromino){
     if (move.hold) move("HOLD")
     pause()
@@ -54,3 +54,4 @@ fun Robot.restart(){
 fun pause(){
     Thread.sleep(1)
 }
+ */
